@@ -3,8 +3,8 @@ import json
 import re
 from pushbullet import Pushbullet
 from os.path import dirname, abspath
-from selenium import webdriver
-from selenium.webdriver.firefox.options import Options
+from selenium import webdriver 
+from selenium.webdriver.chrome.options import Options
 # import sys
 # sys.exit()
 
@@ -28,13 +28,13 @@ with open('./products.json') as f:
 try:
     opts = Options()
     opts.headless = True
-    brower = webdriver.Firefox(options=opts)
+    brower = webdriver.Chrome(options=opts)
 
     for i in range(len(products)):
       brower.get(products[i].get("url"))
       pageSource = str(brower.page_source.encode("utf-8"))
       soldOut = re.search(">Sold Out<", pageSource)
-      if soldOut != None:
+      if soldOut == None:
         pushInStockAlert(products[i])
 finally:
     try:
