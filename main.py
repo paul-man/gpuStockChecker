@@ -34,8 +34,10 @@ with open(storesPath) as f:
   stores = json.load(f)
 
 def main():
+  # TODO: Track the indeces and log names/stores OR # at each store
+  itemsFound = 0
   try:
-      logging.info('___________ Begin stock check ___________')
+      # logging.info('___________ Begin stock check ___________')
       browser = mechanicalsoup.StatefulBrowser(user_agent='Mozilla/5.0')
       browser.open("https://bestbuy.com/")
       for product in products:
@@ -45,12 +47,17 @@ def main():
         soldOut = re.search(soldOutPhrase, pageSource)
         if soldOut == None:
           pushInStockAlert(product)
-          logging.info(f'Found GPU in stock: {product["store"]}->{product["name"]}')
-        else:
-          logging.info(f'No GPU found: {product["store"]}->{product["name"]}')
+          itemsFound = itemsFound + 1
+          # logging.info(f'Found GPU in stock: {product["store"]}->{product["name"]}')
+        # else:
+        #   logging.info(f'No GPU found: {product["store"]}->{product["name"]}')
   finally:
       try:
-          logging.info('___________ End stock check ___________')
+          if itemsFound == 0 :
+            logging.info('__ No items found')
+          else:
+            logging.info(f'{itemsFound} GPUs found, check PushBullet notifications.')
+          # logging.info('___________ End stock check ___________')
           browser.quit()
       except:
           pass
