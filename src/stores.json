@@ -1,0 +1,8 @@
+{
+  "best_buy": {
+    "soldOutPhrase": ">Sold Out<"
+  },
+  "bh_photo": {
+    "soldOutPhrase": ">Notify When Available<"
+  }
+}

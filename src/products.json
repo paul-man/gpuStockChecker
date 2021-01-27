@@ -1,0 +1,57 @@
+[
+  {
+    "name": "RTX 3080 FE",
+    "store": "best_buy",
+    "url": "https://www.bestbuy.com/site/nvidia-geforce-rtx-3080-10gb-gddr6x-pci-express-4-0-graphics-card-titanium-and-black/6429440.p?skuId=6429440"
+  },
+  {
+    "name": "MSI 3080 VENTUS 3X OC ",
+    "store": "best_buy",
+    "url": "https://www.bestbuy.com/site/msi-nvidia-geforce-rtx-3080-ventus-3x-10g-oc-bv-gddr6x-pci-express-4-0-graphic-card-black-silver/6430175.p?skuId=6430175"
+  },
+  {
+    "name": "EVGA 3080 XC3 ULTRA",
+    "store": "best_buy",
+    "url": "https://www.bestbuy.com/site/evga-geforce-rtx-3080-xc3-ultra-gaming-10gb-gddr6-pci-express-4-0-graphics-card/6432400.p?skuId=6432400"
+  },
+  {
+    "name": "Gigabyte 3080 GAMING OC",
+    "store": "best_buy",
+    "url": "https://www.bestbuy.com/site/gigabyte-geforce-rtx-3080-gaming-oc-10g-gddr6x-pci-express-4-0-graphics-card-black/6430620.p?skuId=6430620"
+  },
+  {
+    "name": "Gigabyte 3080 Vision OC",
+    "store": "best_buy",
+    "url": "https://www.bestbuy.com/site/gigabyte-geforce-rtx-3080-vision-oc-10g-gddr6x-pci-express-4-0-graphics-card-white/6436219.p?skuId=6436219"
+  },
+  {
+    "name": "Asus 3080 ROG Strix",
+    "store": "best_buy",
+    "url": "https://www.bestbuy.com/site/asus-geforce-rtx-3080-10gb-gddr6x-pci-express-4-0-strix-graphics-card-black/6432445.p?skuId=6432445"
+  },
+  {
+    "name": "EVGA 3080 FTW3 ULTRA GAMING",
+    "store": "best_buy",
+    "url": "https://www.bestbuy.com/site/evga-geforce-rtx-3080-ftw3-ultra-gaming-10gb-gddr6-pci-express-4-0-graphics-card/6436196.p?skuId=6436196"
+  },
+  {
+    "name": "Gigabyte 3080 AORUS MASTER",
+    "store": "best_buy",
+    "url": "https://www.bestbuy.com/site/gigabyte-geforce-rtx-3080-aorus-master-10g-gddr6x-pci-express-4-0-graphics-card-black/6436223.p?skuId=6436223"
+  },
+  {
+    "name": "Gigabyte 3080 Eagle OC",
+    "store": "best_buy",
+    "url": "https://www.bestbuy.com/site/gigabyte-geforce-rtx-3080-eagle-oc-10g-gddr6x-pci-express-4-0-graphics-card-black/6430621.p?skuId=6430621"
+  },
+  {
+    "name": "Asus 3080 ROG Strix",
+    "store": "bh_photo",
+    "url": "https://www.bhphotovideo.com/c/product/1603617-REG/asus_rog_strix_rtx3080_o10g_gaming_rog_strix_geforce_rtx.html"
+  },
+  {
+    "name": "Gigabyte 3080 AORUS MASTER",
+    "store": "bh_photo",
+    "url": "https://www.bhphotovideo.com/c/product/1599834-REG/gigabyte_gv_n3080aorus_m_10gd_aorus_geforce_rtx_3080.html"
+  }
+]
